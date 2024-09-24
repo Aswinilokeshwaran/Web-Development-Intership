@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #222523;
+    cursor: pointer;
+}
+
+.Navbar {
+    background-color: #222523;
+}
+.nav-link, .connect {
+    color: #8B9D8C; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:visited, .connect:visited {
+    /* Ensure visited links have the same color */
+     color: #8B9D8C;
+    /* Ensure visited links have the same color */
+}
+
+.nav-link:hover, .connect:hover {
+    color: #8B9D8C;
+    
+}
+
+.nav-link:active, .connect:active {
+    color: #8B9D8C; /* Active state */
+}
+
+
+.nav-item {
+    display: inline-block;
+    padding: 6px;
+    padding-top: 15px;
+    color: #8B9D8C;
+    margin-top: 3px;
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-item :hover {
+    color: white;
+    cursor: pointer;
+}
+
+.connect {
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    font-weight: 500;
+    width: 201px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: orange;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;/* Centers content vertically */
+    text-decoration: none;
+    margin: 0 auto;
+    margin-left: 325%;
+    animation: popIn 1s ease-out;
+    animation-delay: 0.1ms; /* Optional delay to make it appear after the text */
+}
+
+.connect:active{
+    background-color:#ffb347; /* Slightly darker shade of orange */
+}
+a{
+    text-decoration: none;
+}
+
+.logo {
+    padding: 5%;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    color: #FEF6E6;
+    margin-top: 10px;
+    font-family: "DM Serif Display", serif;
+}
+.Aboutpage{
+    color: #ffb347;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    padding-top: 8%;
+}
+.name{
+    font-size: 400%;
+    font-weight: 900;
+    color: #FEF6E6;
+    font-family: "DM Serif Display", serif;
+    background-color: #222523;
+    padding-bottom: 7%;
+    
+}
+.Aboutmore{
+    background-color: white;
+    height: 240vh; 
+
+}
+.About-heading{
+    font-size: 450%;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-left: 8%;
+    background-color: white;
+    color:black;
+    width: 600px;
+    height: 110px;
+    margin: 0;
+}
+.About-more{
+    color:black;
+    display: inline;
+    text-align: justify;
+    font-size: 120%;
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    margin-top: -5%;
+    margin-right: 7%;
+    float: right;
+    line-height :2em;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.img-photo{
+    width: 1250px;
+    height: 700px;
+    margin-top: -10%;
+    margin-left: 8%;
+}
+.work-heading{
+    font-size: 300%; 
+    font-weight: 900;
+    color: black;
+    background-color: white;  
+    padding-left: 20%;
+    padding-top: 5%;
+}
+.work-more{
+   background-color: white;
+   padding-left: 20%;
+   width: 30%;
+   padding-top:1%;
+   font-family: "Roboto", sans-serif;
+   line-height :2em;
+   font-size: 130%;
+   text-align: justify;
+
+}
+
+.follow{
+    color:#ffb347;
+    background-color: white;
+    font-family: "Amaranth", sans-serif;
+    text-transform: uppercase;
+    margin-top: -10%;
+    padding-left: 59.6%;
+
+}
+.Socialmedia {
+    align-items: start;
+    justify-content: start;
+    margin-top: 1%;
+    display: flex;
+    background-color: white !important; /* This should enforce the white background */
+    padding-left: 59%;
+}
+
+.Socialmedia img {
+    margin: 0 3px; /* Adjust spacing between icons as needed */  
+}
+
+/* Correct selector for styling anchor elements */
+.Socialmedia a {
+    text-decoration: none;
+    background-color: white; /* Applies only if you want a white background on anchor elements */
+}
+
+.Email{
+    color:#ffb347;
+    background-color: white;
+    font-family: "Amaranth", sans-serif;
+    text-transform: uppercase;
+    margin-top: 3%;
+    padding-left: 59.6%;   
+}
+.mailid{
+    color: black;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 0.5%;
+    padding-left: 59.6%;   
+    font-size: 120%;
+}
+.PhoneNo{
+    color:#ffb347;
+    background-color: white;
+    font-family: "Amaranth", sans-serif;
+    text-transform: uppercase;
+    margin-top: 3%;
+    padding-left: 59.6%;   
+}
+.number{
+    color: black;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin-top: 0.5%;
+    padding-left: 59.6%;   
+    font-size: 120%;
+}
+
+.flex-box {
+    font-size: 120%;
+    font-weight: 500;
+    width: 440px;
+    height: 65px;
+    border-radius: 7px;
+    background-color: #FF9C0C;
+    border: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    margin-top: -4%;
+    margin-left: 20%;
+    margin-bottom: 7%;  
+    padding: 0;
+}
+
+.flex-box a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: orange;
+    color: black;
+    width: 100%; /* Ensures the link fills the flex-box */
+    height: 100%; /* Ensures the link fills the flex-box */
+    justify-content: center; /* Centers content inside the link */
+    padding: 0 10px; /* Adjust padding for spacing inside the link */
+    border-radius: 7px; /* To make the link conform to the box's rounded corners */
+}
+
+.flex-box-img {
+    margin-right: 10px;
+    background: none; /* Ensures no background is applied to the image */
+    border: none; /* Removes any borders from the image */
+}
+
+.flex-box a:active {
+    background-color: #ffb347; /* Slightly darker shade of orange */
+}
+
+.flex-box a img {
+    display: block; /* Ensures the image behaves correctly inside the link */
+}
+
+
+
+

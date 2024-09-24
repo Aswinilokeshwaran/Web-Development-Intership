@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #222523;
+    cursor: pointer;
+}
+
+.Navbar {
+    background-color: #222523;
+}
+.nav-link, .connect {
+    color:#FEF6E6; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:visited, .connect:visited {
+    /* Ensure visited links have the same color */
+     color:#FEF6E6;
+    /* Ensure visited links have the same color */
+}
+
+.nav-link:hover, .connect:hover {
+    color: #FEF6E6;
+    
+}
+
+.nav-link:active, .connect:active {
+    color:#FEF6E6; /* Active state */
+}
+
+
+.nav-item {
+    display: inline-block;
+    padding: 6px;
+    padding-top: 15px;
+    color: #FEF6E6;
+    margin-top: 3px;
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-item :hover {
+    color:#8B9D8C;
+    cursor: pointer;
+}
+.connect {
+    color: rgb(0, 0, 0);
+    font-size: 110%;
+    font-weight: 500;
+    width: 201px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: orange;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;  /* Centers content horizontally */
+    align-items: center;/* Centers content vertically */
+    text-decoration: none;
+    margin: 0 auto;
+    margin-left: 325%;
+    animation: popIn 1s ease-out;
+    animation-delay: 0.1ms; /* Optional delay to make it appear after the text */
+}
+
+.connect:active{
+    background-color:#ffb347; /* Slightly darker shade of orange */
+}
+.connect:hover{
+    color: black;
+}
+.logo {
+    padding: 5%;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    color: #8B9D8C;
+    margin-top: 10px;
+    font-family: "DM Serif Display", serif;
+}
+
+.My-Name {
+    color:#FEF6E6;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: x-large;
+    font-family: "Roboto", sans-serif;
+    animation: fadeInUp 1s ease-in-out;
+    animation-delay: 0.5s;
+    background-color: #222523;
+}
+
+.img-photo {
+    float: right;
+    width: 350px;
+    height: 400px;
+}
+
+.pos-img {
+    position: absolute;
+    width: 95%;
+   
+}
+
+.Start {
+    color: #FEF6E6;
+    padding-left: 5%;
+    font-size: 700%;
+    width:900px;
+    font-weight: 900;
+    animation: fadeInUp 1s ease-in-out;
+    animation-delay: 1s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.Scroll {
+    padding-top: 3.5%;
+    padding-left: 4%;
+    display: inline-block;
+    vertical-align: middle;
+    /* Aligns with .Down */
+    background-color: #222523;
+}
+
+a {
+    text-decoration: none; /* Removes the underline */
+    display: block;  /* Ensures no extra line is added */
+    margin: 0;
+    padding: 0;
+}
+.Down {
+    display: inline-block;
+    padding-top: 3.5%;
+    vertical-align: middle;
+    /* Aligns with .Scroll */
+    color: #FEF6E6;
+    font-family: "Roboto", sans-serif;
+    font-size: 120%;
+}
+
+.About {
+    color: #FF9C0C;
+    padding-left: 4%;
+    padding-top: 10%;
+    margin-left: 2%;
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+}
+
+.co {
+    display: flex;
+    align-items: flex-start;
+    /* Align items at the top of the container */
+    width: 100%;
+    /* Ensure the container takes up the full width */
+}
+
+.Heading {
+    color: #FEF6E6;
+    font-size: 410%;
+    font-weight: 900;
+    padding-left: 5%;
+    width: 600px;
+    height: 110px;
+    margin: 0;
+    padding-top: 7px;
+    display: inline-block;
+}
+
+.More {
+    color: #FEF6E6;
+    display: inline;
+    text-align: justify;
+    font-size: 130%;
+    width: 520px;
+    height: 400px;
+    margin: 0;
+    padding-top: 2%;
+    float: right;
+    line-height: 1.5;
+    margin-bottom: 30%;
+}
+.box {
+    font-size: 110%;
+    font-weight: 500;
+    width: 250px;
+    height: 60px;
+    border-radius: 4px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #FEF6E6;
+    color: #FEF6E6;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-left: 5%;
+    
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: #FEF6E6;
+    color: black;
+}
+
+.Socialmedia {
+    display:flex;
+    padding-left: 7.5%;
+    padding-top: 3%;
+}
+
+.Socialmedia img {
+    margin: 0 3px; /* Adjust spacing between icons as needed */
+    
+}
+
+.Exp {
+    color: #FF9C0C;
+    padding-left: 5%;
+    padding-top: 10%;
+    margin-top: 25%;
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    background-color: white;
+    background-size: cover;
+    height: 140vh;
+    width: 106%; /* Set width to 100% to avoid overflow */
+    box-sizing: border-box; /* Include padding in the element's width */
+}
+#one{
+    color:#FF9C0C;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    display:inline;
+    padding-left:45%;
+}
+
+#One-Heading{
+    color:black;
+    background-color: white;
+    font-family:"Dm serif Display";
+    display:inline-block;
+    font-size: 120%;
+
+}
+
+#one-one{
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: inline;
+    text-align: justify;
+    width: 545px;
+    height: 60px;
+    line-height: 1.5;
+    float: right;
+    padding-top: 1%;
+    margin-right: 110px; /* Adjust the value as needed */
+}
+#two-two,#three-three,#four-four{
+    color: black;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90%;
+    display: inline;
+    text-align: justify;
+    width: 545px;
+    height: 60px;
+    line-height: 1.5;
+    float: right;
+    padding-top: 1%;
+    margin-right: 110px; /* Adjust the value as needed */
+}
+#two{
+    padding-left: 52%;
+    padding-top: 13%;
+    display: block;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+#two-Heading,#three-Heading,#four-Heading {
+    color: black;
+    background-color: white;
+    font-family: "Dm serif Display";
+    display: block;
+    font-size: 120%;
+    padding-left: 55%;
+    text-align: justify;
+    margin-top: -2.5%;
+    /* Remove the padding-bottom as negative values are invalid */
+}
+#three{
+    padding-left: 52%;
+    padding-top: 10%;
+    display: block;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+#four{
+    padding-left: 52%;
+    padding-top: 10%;
+    display: block;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.Exp-Heading {
+    color: black;
+    background-color: white;
+    font-weight :900;
+    width: 600px;
+    margin-top: -40%;
+    padding-left: -2%;
+    font-size: 300%;
+    padding-top: 2%;
+    font-weight: 500;
+   font-family: "Dm serif Display";
+   display: block; /* Ensure it takes up the full width */
+   
+}
+.Exp-More{
+    color: black;
+    background-color: white;
+    width: 500px;
+    height: 110px;
+    font-size:31%;
+    line-height: 1.5;
+    text-align:justify;
+    padding-top: 7%;
+    font-family:'Times New Roman', Times, serif;
+    display: block; /* Ensure it takes up the full width */
+}
+
+
+.skill {
+    margin-top: 45%;
+    background-color: #FEF6E6;
+    margin-top: 30%;
+    padding-top: 10%;
+    color: #FF9C0C;
+    position: absolute;
+    left:-1%;
+    height: 135vh;
+    width: 104%;
+    padding-left: 5%;
+    font-style: normal;
+    font-family: "Roboto", sans-serif;
+    font-size: 40%;
+    
+ }
+
+ .skill-Heading{
+    color: black;
+    font-weight :900;
+    background-color: #FEF6E6;
+    width: 600px;
+    margin-top: 1%;
+    padding-left: -2%;
+    font-size: 270%;
+    font-weight: 500;
+    font-family: "Dm serif Display";
+    display: block; /* Ensure it takes up the full width */
+ }
+ .Skill-more{
+    color: black;
+    background-color:#FEF6E6;
+    font-size:26%;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    width: 545px;
+    height: 60px;
+    margin-top: -32%;
+    margin-left: 115%;
+    text-align: justify;
+    line-height: 1.6;
+ } 
+ .skill-box {
+          
+           display: flex;
+           flex-wrap: wrap;
+           width: 1250px;
+           flex-direction: row;
+           justify-content: flex-start;
+           padding-top: 10%;
+           background-color: #FEF6E6;
+
+}
+
+.flex-box {
+    width: 250px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    background-color: #FEF6E6;
+    text-align: center;
+    font-size: 40px; /* Set a fixed font size */
+    font-weight: 900;
+    justify-content: center;
+    font-family: "Raleway", sans-serif;
+    line-height: 110px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    flex-shrink: 0; /* Prevent shrinking */
+    border-right: 0; /* Remove border-right for all */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
+
+/* Optionally, adjust flex-grow or flex-basis for more control */
+.flex-box {
+    flex-grow: 0;
+    flex-basis: 25%; /* Adjust this value based on the number of boxes per row */
+}
+
+.flex-box-img{ 
+    background-color: #FCE3B5;
+
+}
+ .box4,.box7 {
+    border-right: 1.5px solid gray; /* Add border-right for the first four boxes */
+}
+.box5,.box6,.box7{
+    border-top: 0;
+}
+.flex-box:hover {
+    background-color: #FCE3B5; /* Change background color on hover */
+}
+.last-home {
+    
+    color: #FEF6E6;
+    margin-top: 19.4%;
+    min-width: 600px;
+    min-height: 55vh;
+    line-height: normal;
+    padding-left: 410px;
+    font-size: 70px;
+    font-weight: 500;
+    padding-top: 25%;
+    font-family: "Dm serif Display";
+}
+.my-boxlast{
+    background-color: #222523;
+} 
+.last-box{
+   
+    font-size: 23%;
+    font-weight: 500;
+    width: 250px;
+    height: 65px;
+    border-radius: 7px;
+    background-color: #FF9C0C; /* Keep only this background-color */
+    border-style: solid;
+    border-color: #FF9C0C;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-left: -2px;
+    margin:0 ;
+    margin-top: -20%;
+    margin-left: 90%;
+
+
+}
+
+.last-box:active {
+    background-color:#ffb347; /* Slightly darker shade of orange */
+}

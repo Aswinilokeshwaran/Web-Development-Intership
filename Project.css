@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #222523;
+    cursor: pointer;
+}
+
+.Navbar {
+    background-color: #222523;
+}
+.nav-link{
+    color: #8B9D8C; /* Default color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-link:visited{
+    /* Ensure visited links have the same color */
+     color: #8B9D8C;
+    /* Ensure visited links have the same color */
+}
+
+.nav-link:hover {
+    color: #8B9D8C;
+    
+}
+
+.nav-link:active {
+    color: #8B9D8C; /* Active state */
+}
+
+
+.nav-item {
+    display: inline-block;
+    padding: 6px;
+    padding-top: 15px;
+    color: #8B9D8C;
+    margin-top: 3px;
+}
+
+.nav-link {
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-item :hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+a{
+    text-decoration: none;
+}
+.logo {
+    padding: 5%;
+    display: inline;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200%;
+    color: #FEF6E6;
+    margin-top: 10px;
+    font-family: "DM Serif Display", serif;
+}
+.Aboutpage{
+    color: #ffb347;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 150%;
+    padding-top: 8%;
+}
+.name{
+    font-size: 400%;
+    font-weight: 900;
+    color: #FEF6E6;
+    font-family: "DM Serif Display", serif;
+    background-color: #222523;
+    padding-bottom: 7%;
+    letter-spacing: 2px;
+}
+.Aboutmore{
+    background-color: white;
+    height: 240vh; 
+
+}
+.About-heading{
+    font-size: 450%;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-left: 8%;
+    background-color: white;
+    color:black;
+    width: 600px;
+    height: 110px;
+    margin: 0;
+}
+
+.About-more{
+    color:black;
+    display: inline;
+    text-align: justify;
+    font-size: 120%;
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    margin-top: -5%;
+    margin-right: 7%;
+    float: right;
+    line-height :2em;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.row {
+    display: flex;
+    justify-content: center; /* Center the row */
+    flex-wrap: wrap; /* Ensure cards wrap to a new line */
+    margin-bottom: 20px; /* Space between rows */
+    background-color: white;
+    width: 100%;
+}
+
+.card-container {
+    margin: 15px; /* Space between cards */
+    background-color: white;
+    
+}
+
+.card {
+    width: 340px;
+    background-color: #f0f0f0;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin: 5px; /* Margin around each card */
+    border: 3px solid transparent; /* Initial border color */
+    transition: border-color 0.3s ease; /* Animation for border color change */
+}
+.card:active {
+    border-color: orange; /* Change border color to orange */
+}
+
+.card img {
+    width: 340px;
+    height: 310px;
+}
+
+.card-content {
+    padding: 16px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    font-family: "Amaranth", sans-serif;
+    background-color: white;
+    text-transform: uppercase;
+    padding-top: 5%;
+    text-decoration: none;
+}
+
+.card-content p {
+    background-color: white;
+    color: #666;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-top: 5%;
+}
+
+.card-content .btn {
+    display: inline-block;
+    background-color: orange;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color:black;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+.card-content .btn :active{
+    background-color:#ffb347;
+}
+p b{
+    background-color: white;
+}
